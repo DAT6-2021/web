@@ -1,6 +1,11 @@
 <script>
     import klandringer from "$lib/klandringer";
     import { ThumbsDownIcon, ThumbsUpIcon } from "svelte-feather-icons";
+    import { page } from "$app/stores";
+
+
+    $: console.log($page);
+    let selected;
 </script>
 
 <div class="mx-auto flex space-x-8 p-8">
@@ -35,8 +40,8 @@
             </tr>
         </thead>
         <tbody>
-            {#each klandringer as { klander, klandret, beskrivelse, konklusion, anti }}
-                <tr>
+            {#each klandringer as { klander, klandret, beskrivelse, konklusion, anti }, i}
+                <tr id="{i}" class:selected={selected == i}>
                     <td>{`{${klander.join(", ")}}`}</td>
                     <td>{`{${klandret.join(", ")}}`}</td>
                     <td class="text-medium">{beskrivelse}</td>
@@ -68,10 +73,14 @@
     }
 
     table tbody {
-        @apply bg-white divide-y divide-gray-200;
+        @apply divide-y divide-gray-200;
     }
 
     table tbody tr td {
         @apply px-6 py-4;
+    }
+
+    .selected {
+        @apply bg-red-500;
     }
 </style>

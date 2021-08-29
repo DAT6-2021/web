@@ -52,10 +52,18 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@sveltejs/kit@next":
-  version "1.0.0-next.158"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.158.tgz#d5f50c7b14d9762f7828a8b6f7553e8759c7ed9a"
-  integrity sha512-jVpVeAFOVNOGDRDVvbWjHxco5s78OYsrCJhnEAKoOe690gkWA5Qc8FqPXo8HHiaIHKHmTP1vbrEhQ5jkX7fBAw==
+"@sveltejs/adapter-cloudflare-workers@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-cloudflare-workers/-/adapter-cloudflare-workers-0.0.1.tgz#80847e655622bec3dfc0b199f12105fb81597136"
+  integrity sha512-M3ny3FcSZMXuUxXRc91JVLziXrMcQsOf+0JqhqJpQpKvisk1GU9ZFLNKy7ausWZPJStgbF8y7HlKUF7OV3PR3A==
+  dependencies:
+    "@sveltejs/kit" "workspace:*"
+    toml "^3.0.0"
+
+"@sveltejs/kit@^1.0.0-next.159", "@sveltejs/kit@workspace:*":
+  version "1.0.0-next.159"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.159.tgz#6f1fc721ec652ebe5f1c2765535047e166b85eef"
+  integrity sha512-aSq2zgnPmTFgiVBMtlkv5X/wnVBJDAmM9coRzk+qAKZoSLmLEmDteJbFt4m6IcAS7YoNKx/smSfC8QkdGjjrdg==
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^1.0.0-next.16"
     cheap-watch "^1.0.3"
@@ -85,9 +93,9 @@
     lodash.uniq "^4.5.0"
 
 "@types/node@*":
-  version "16.7.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.7.4.tgz#68a9384694af63ceab8848e95d76d9a3519e84b6"
-  integrity sha512-25QXpDsTiDnl2rZGUenagVMwO46way8dOUdvoC3R3p+6TrbpxeJBo/v87BEG1IHI31Jhaa8lPeSHcqwxsVBeYQ==
+  version "16.7.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.7.6.tgz#8666478db8095aa66e25b7e469f3e7b53ea2855e"
+  integrity sha512-VESVNFoa/ahYA62xnLBjo5ur6gPsgEE5cNRy8SrdnkZ2nwJSW0kJ4ufbFr2zuU9ALtHM8juY53VcRoTA7htXSg==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -1058,6 +1066,11 @@ to-regex-range@^5.0.1:
   integrity sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==
   dependencies:
     is-number "^7.0.0"
+
+toml@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/toml/-/toml-3.0.0.tgz#342160f1af1904ec9d204d03a5d61222d762c5ee"
+  integrity sha512-y/mWCZinnvxjTKYhJ+pYxwD0mRLVvOtdS2Awbgxln6iEnt4rk0yBxeSBHkGJcPucRiG0e55mwWp+g/05rsrd6w==
 
 tslib@^2.0.0:
   version "2.3.1"

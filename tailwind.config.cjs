@@ -1,15 +1,15 @@
 module.exports = {
     mode: 'jit',
-    purge: [ 
-      "./src/**/*.svelte",
-      "./src/**/*.html"
+    purge: [
+        "./src/**/*.svelte",
+        "./src/**/*.html"
     ],
     darkMode: 'class',
     theme: {
-      extend: {}
+        extend: {}
     },
     variants: {},
     plugins: [
         require('@tailwindcss/typography'),
     ],
-  }
+}

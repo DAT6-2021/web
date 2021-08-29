@@ -17,7 +17,7 @@
 
 </script>
 
-<div>
+<div class="">
     <p>{name[weekday]}</p>
     <slot />
 </div>
