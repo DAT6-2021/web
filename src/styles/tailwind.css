@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    #svelte {
+        @apply flex flex-col h-screen w-screen overflow-y-auto;
+    }
+}
