@@ -1,7 +1,6 @@
 <script>
     import "../styles/tailwind.css";
     import { page } from "$app/stores";
-    import Klantninger from "./klandringer.svelte";
 </script>
 
 <header class="flex flex-shrink-0 h-28 shadow">
@@ -17,7 +16,6 @@
     nav a {
         @apply flex justify-center items-center px-4 hover:bg-indigo-700 hover:text-white;
     }
-
     nav a.active {
         @apply bg-indigo-700 text-white;
     }

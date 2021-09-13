@@ -3,26 +3,29 @@ export default [
         klander: ["Strub"],
         klandret: ["Panini"],
         beskrivelse: "DAT7?",
-        konklusion: [22, 1],
+        med: 22,
+        mod: 1,
     },
     {
-        klander: ["Andre"],
+        klander: ["FUNE"],
         klandret: ["Strub"],
         beskrivelse: "Normal mad",
-        konklusion: [13, 6],
+        med: 13,
+        mod: 6,
     },
     {
         anti: true,
-        klander: ["Andre"],
+        klander: ["FUNE"],
         klandret: ["Dolan"],
         beskrivelse: "Støttemand?",
-        konklusion: ["Andre", "Strube", "Panini"],
+        konklusion: ["FUNE", "Strube", "Panini"],
     },
     {
         klander: ["Asbjørn"],
         klandret: ["Strube", "Panini", "Dolan"],
         beskrivelse: "Kampråb",
-        konklusion: [17, 5],
+        med: 17,
+        mod: 5,
     },
     {
         anti: true,
@@ -42,6 +45,35 @@ export default [
         klander: ["Panini"],
         klandret: ["Dolan"],
         beskrivelse: "Poker lån",
-        konklusion: [14, 9],
+        med: 14,
+        mod: 9,
     },
+    {
+        anti: true,
+        klander: ["Panini"],
+        klandret: ["Niels Jakob"],
+        beskrivelse: "Oplader",
+        konklusion: ["Panini"]
+    },
+    {
+        klander: ["FUNE"],
+        klandret: ["Panini"],
+        beskrivelse: "Afbyder",
+        med: 13,
+        mod: 2
+    },
+    {
+        klander: ["Jacob"],
+        klandret: ["FUNE"],
+        beskrivelse: ["Niels Jakob med c"],
+        med: 14,
+        mod: 7,
+    },
+    {
+        klander: ["Dolan"],
+        klandret: ["Panini"],
+        beskrivelse: ["Dolan er rus"],
+        med: 13,
+        mod: 13,
+    }
 ]

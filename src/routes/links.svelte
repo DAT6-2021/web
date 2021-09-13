@@ -1,13 +1,4 @@
-<script>
-    const links = [
-        {
-            name: "Fredagscafeèn",
-            href: "https://m.facebook.com/fredagscafeen.dk/",
-        },
-    ];
-</script>
-
-<div class="grid grid-flow-row-dense grid-cols-4 container mx-auto p-8 gap-4">
+<div class="grid grid-flow-row-dense xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 container mx-auto md:p-8 p-4 md:gap-4 gap-2">
     <a href="https://www.facebook.com/fredagscafeen.dk/">
         <h2>Fredagscafeèn</h2>
         <p>
