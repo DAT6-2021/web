@@ -1,10 +1,8 @@
 name = "dat6"
 type = "webpack"
-route = ''
-zone_id = ''
-usage_model = ''
-compatibility_flags = []
-workers_dev = true
+route = "dat6.dk/*"
+zone_id = "3c8ea175ed0390d8f26cf12d97469029"
+account_id = "18da2347c098d52002479d117c42f096"
 [site]
 bucket = "./build"
 entry-point = "./workers-site"
