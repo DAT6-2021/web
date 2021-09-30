@@ -327,5 +327,7 @@ export default [
         klander: ["Hjalte"],
         klandret: ["Dolan"],
         beskrivelse: "Sketchy forklaring",
+        med: 12,
+        mod: 5,
     },
 ]
