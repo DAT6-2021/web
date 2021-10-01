@@ -227,7 +227,7 @@ export default [
         mod: 16,
     },
     {
-        klander: ["Mikkel mus"],
+        klander: ["Mikkel Mus"],
         klandret: ["Strube"],
         beskrivelse: "Lokale",
         med: 18,
@@ -329,5 +329,39 @@ export default [
         beskrivelse: "Sketchy forklaring",
         med: 12,
         mod: 5,
+    },
+    {
+        klander: ["Hjalte"],
+        klandret: ["FUNÉ"],
+        beskrivelse: "Dynamisk programmering",
+        med: 2,
+        mod: 8,
+    },
+    {
+        klander: ["Hjalte"],
+        klandret: ["FUNÉ", "Dolan", "Panini", "Strube"],
+        beskrivelse: "Sportsdag",
+        med: 6,
+        mod: 3,
+    },
+    {
+        anti: true,
+        klander: ["Jacob W."],
+        klandret: ["Nikolaj", "Jacob R.", "Emil S.", "Jacob W."],
+        beskrivelse: "Binær andenplads",
+        konklusion: ["Jacob W.", "Nikolaj"]
+    },
+    {
+        klander: ["Mikkel Mus"],
+        klandret: ["Dolan"],
+        beskrivelse: "Faren der forlader sin søn",
+        med: 7,
+        mod: 8,
+    },
+    {
+        klander: ["Jacob R"],
+        klandret: ["Strube"],
+        beskrivelse: "Kommer for sent",
+        aldrigsket: true,
     },
 ]
