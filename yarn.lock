@@ -1021,6 +1021,10 @@ svelte-preprocess@^4.0.0, svelte-preprocess@^4.8.0:
     detect-indent "^6.0.0"
     strip-indent "^3.0.0"
 
+"svelte-table@git+https://github.com/dasDaniel/svelte-table.git":
+  version "0.1.19"
+  resolved "git+https://github.com/dasDaniel/svelte-table.git#949d7c232e51f788369b5d2d4276d3c5537bff03"
+
 svelte@^3.34.0, svelte@^3.38.2:
   version "3.42.4"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.42.4.tgz#838ed98fa7b26fc5fffe4df0d7ba345f1c54cf4f"

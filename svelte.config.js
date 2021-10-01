@@ -7,9 +7,6 @@ const config = {
 	// for more information about preprocessors
 	preprocess: preprocess({
 		postcss: true,
-		defaults: {
-            style: "postcss",
-        },
 	}),
 
 	kit: {

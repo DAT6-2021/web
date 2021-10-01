@@ -4,6 +4,6 @@
 
 @layer base {
     #svelte {
-        @apply flex flex-col h-screen w-screen overflow-y-auto;
+        @apply flex flex-col min-h-screen w-screen overflow-y-auto;
     }
 }
