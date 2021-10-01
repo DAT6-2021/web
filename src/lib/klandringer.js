@@ -338,7 +338,7 @@ export default [
         mod: 8,
     },
     {
-        klander: ["Hjalte"],
+        klander: ["Jacob W."],
         klandret: ["FUNÉ", "Dolan", "Panini", "Strube"],
         beskrivelse: "Sportsdag",
         med: 6,
@@ -359,7 +359,7 @@ export default [
         mod: 8,
     },
     {
-        klander: ["Jacob R"],
+        klander: ["Jacob R."],
         klandret: ["Strube"],
         beskrivelse: "Kommer for sent",
         aldrigsket: true,

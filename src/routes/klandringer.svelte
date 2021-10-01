@@ -63,6 +63,13 @@ import { navigating } from "$app/stores";
             <span class="text-sm font-thin">DKK</span>
         </p>
     </div>
+    <div class="shadow p-8 rounded">
+        <p class="text-xl font-bold">Total</p>
+        <p>
+            <span>{(total / 90).toFixed(2)}</span>
+            <span class="text-sm font-thin">GD</span>
+        </p>
+    </div>
 </div>
 
 <div class="mx-auto container p-8">
