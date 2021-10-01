@@ -59,14 +59,14 @@ import { navigating } from "$app/stores";
     <div class="shadow p-8 rounded">
         <p class="text-xl font-bold">Total</p>
         <p>
-            <span>{total}</span>
+            <span>{total.toLocaleString()}</span>
             <span class="text-sm font-thin">DKK</span>
         </p>
     </div>
     <div class="shadow p-8 rounded">
         <p class="text-xl font-bold">Total</p>
         <p>
-            <span>{(total / 90).toFixed(2)}</span>
+            <span>{(total / 90).toFixed(2).toLocaleString()}</span>
             <span class="text-sm font-thin">GD</span>
         </p>
     </div>
@@ -140,10 +140,10 @@ import { navigating } from "$app/stores";
             {#each Object.entries(personer) as [navn, { tabt, vundet, anti, skylder }]}
             <tr>
                 <td>{navn}</td>
-                <td>{tabt || 0}</td>
-                <td>{vundet || 0}</td>
-                <td>{anti || 0}</td>
-                <td>{skylder || 0}</td>
+                <td>{tabt.toLocaleString() || 0}</td>
+                <td>{vundet.toLocaleString() || 0}</td>
+                <td>{anti.toLocaleString() || 0}</td>
+                <td>{skylder.toLocaleString()|| 0}</td>
             </tr>
             {/each}
         </tbody>
