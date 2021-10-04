@@ -347,9 +347,9 @@ export default [
     {
         anti: true,
         klander: ["Jacob W."],
-        klandret: ["Nikolaj", "Jacob R.", "Emil S.", "Jacob W."],
+        klandret: ["Nickolaj", "Jacob R.", "Emil S.", "Jacob W."],
         beskrivelse: "Binær andenplads",
-        konklusion: ["Jacob W.", "Nikolaj"]
+        konklusion: ["Jacob W.", "Nickolaj"]
     },
     {
         klander: ["Mikkel Mus"],
