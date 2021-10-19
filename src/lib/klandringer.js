@@ -364,4 +364,24 @@ export default [
         beskrivelse: "Kommer for sent",
         aldrigsket: true,
     },
+    {
+        klander: ["FUNÈ"],
+        klandret: ["Hjalte"],
+        beskrivelse: "Spildt forberedelse",
+        med: 8,
+        mod: 6
+    },
+    {
+        klander: ["Dat6-Jacob W."],
+        klandret: ["Jacob W."],
+        beskrivelse: "IMO sværhedsgrad",
+        med: 5,
+        mod: 0,
+    },
+    {
+        klander: ["FUØX"],
+        klandret: ["FUNÈ"],
+        beskrivelse: "DAT7 ≠ DAT6",
+        aldrigsket: true,
+    }
 ]
