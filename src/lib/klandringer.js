@@ -380,7 +380,7 @@ export default [
     },
     {
         klander: ["FUØX"],
-        klandret: ["FUNÈ"],
+        klandret: ["FUNÉ"],
         beskrivelse: "DAT7 ≠ DAT6",
         aldrigsket: true,
     }

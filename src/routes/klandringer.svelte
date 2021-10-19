@@ -81,7 +81,7 @@
         klandret: k.klandret.join(", "),
         beskrivelse: k.aldrigsket ? null : k.beskrivelse,
         konklusion: k.anti
-            ? k.konklusion.join(",")
+            ? k.konklusion.join(", ")
             : k.med < k.mod
             ? "I"
             : k.mod < k.med
