@@ -10,7 +10,7 @@
         <a href="/links" class:active={/^\/links/.test($page.path)}>Links</a>
     </nav>
 </header>
-<main class="flex flex-col flex-1"><slot /></main>
+<main class="flex flex-col flex-1 max-w-screen"><slot /></main>
 
 <style>
     nav a {
