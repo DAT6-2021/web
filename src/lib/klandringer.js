@@ -383,5 +383,78 @@ export default [
         klandret: ["FUNÉ"],
         beskrivelse: "DAT7 ≠ DAT6",
         aldrigsket: true,
+    },
+
+    // Fredag den 15. oktober
+    {
+        anti: true,
+        klander: ["FUØX"],
+        klandret: ["Niels Jakob", "Jacob W."],
+        beskrivelse: "Slaver?",
+        konklusion: ["FUØX", "Hjalte", "Nickolaj"]
+    },
+    {
+        klander: ["Hjalte"],
+        klandret: ["Niels Jakob"],
+        beskrivelse: "Panini?",
+        med: 13,
+        mod: 5,
+    },
+    {
+        klander: ["Jacob W."],
+        klandret: ["Niels Jakob"],
+        beskrivelse: "Kylling",
+        med: 11,
+        mod: 11,
+    },
+    {
+        anti: true,
+        klander: ["Hjalte"],
+        klandret: ["FUØX"],
+        beskrivelse: "Vindertrøjen",
+        konklusion: ["Hjalte", "FUØX"],
+    },
+    {
+        anti: true,
+        klander: ["Maggie"],
+        klandret: ["Dolan"],
+        beskrivelse: "¬brand",
+        konklusion: ["Maggie", "FUNÉ", "Hjalte", "Asbjørn", "Nickolaj", "Mikkel Mus"],
+    },
+    {
+        klander: ["Jacob W."],
+        klandret: ["FUØX"],
+        beskrivelse: "Ledere i Frankrig",
+        med: 5,
+        mod: 11,
+    },
+    {
+        klander: ["Dolan"],
+        klandret: ["Maggie"],
+        beskrivelse: "Hurtig snack",
+        med: 13,
+        mod: 7,
+    },
+
+    // Fredag den 29. oktober
+    {
+        anti: true,
+        klander: ["FUØX"],
+        klandret: ["Linje 13 buschauffør"],
+        beskrivelse: "Ekstra lang gå tur til åby fans",
+        konklusion: ["FUØX", "Jacob W.", "Asbjørn"]
+    },
+    {
+        klander: ["Jacob W."],
+        klandret: ["Niels Jakob"],
+        beskrivelse: "Snakker telefon under klandringer",
+        aldrigsket: true,
+    },
+    {
+        klander: ["Asbjørn"],
+        klandret: ["Mikkel Mus"],
+        beskrivelse: "Imerco",
+        med: 12,
+        mod: 9,
     }
 ]

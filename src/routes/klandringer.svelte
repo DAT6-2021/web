@@ -2,8 +2,7 @@
     import Grid from "gridjs-svelte";
 
     import klandringer from "$lib/klandringer";
-    import { Cell, html, Row } from "gridjs";
-    import Gridjs from "gridjs-svelte";
+    import { html } from "gridjs";
 
     const total = klandringer
         .map(
@@ -131,7 +130,7 @@
                 id: "klandret",
                 name: "Klandret",
                 formatter: (cell, row) =>
-                    html(`{${cell}}<sup>${row.cells[4].data || ""}</sup>`),
+                    html(`{${cell}}<sup>${row.cells[5].data || ""}</sup>`),
             },
             {
                 id: "beskrivelse",
