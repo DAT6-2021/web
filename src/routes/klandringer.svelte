@@ -59,7 +59,7 @@
             } else if (med > mod) {
                 (klander || []).forEach((k) => (personer[k].vundet += 1));
                 (klandret || []).forEach((k) => (personer[k].tabt += 1));
-            } else if (mod < med) {
+            } else if (med < mod) {
                 (klander || []).forEach((k) => (personer[k].tabt += 1));
                 (klandret || []).forEach((k) => (personer[k].vundet += 1));
             } else if (med !== undefined && med === mod) {
