@@ -102,7 +102,7 @@ export default [
   {
     klander: ["Strube"],
     klandret: ["Emil S."],
-    beskrivelse: "Dat6 ære",
+    beskrivelse: "DAT6 ære",
     anti: true,
     konklusion: [
       "Strube",
@@ -117,7 +117,7 @@ export default [
   {
     klander: ["Hjalte"],
     klandret: ["Mikkel Mus"],
-    beskrivelse: "Dat6 bank",
+    beskrivelse: "DAT6 bank",
     anti: true,
     konklusion: ["Hjalte", "Emil S.", "Nickolaj", "Niels Jakob", "FUNÉ"],
   },
@@ -366,7 +366,7 @@ export default [
     mod: 6,
   },
   {
-    klander: ["Dat6-Jacob W."],
+    klander: ["DAT6 - Jacob W."],
     klandret: ["Jacob W."],
     beskrivelse: "IMO sværhedsgrad",
     med: 5,
@@ -461,14 +461,14 @@ export default [
 
   // Fredag den 5. november
   {
-    klander: ["Mikkel mus"],
+    klander: ["Mikkel Mus"],
     klandret: ["FUØX"],
     beskrivelsel: "Nødder og bolde",
     med: 8,
     mod: 11,
   },
   {
-    klander: ["Mikkel mus"],
+    klander: ["Mikkel Mus"],
     klandret: ["FUØX"],
     beskrivelse: "Vinder trøse",
     med: 12,
@@ -540,7 +540,7 @@ export default [
     klander: ["Jacob R."],
     klandret: ["Mikkel Mus"],
     beskrivelse: "Ikke i Imerco",
-    med: 0,
+    med: 1,
     mod: 11,
   },
 ];

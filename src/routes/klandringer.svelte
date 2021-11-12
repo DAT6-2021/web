@@ -83,7 +83,7 @@
             ? k.konklusion.join(", ")
             : k.med < k.mod
             ? "I"
-            : k.mod < k.med
+            : k.med > k.mod
             ? "O"
             : k.med === k.mod
             ? "𝜙"
