@@ -543,4 +543,48 @@ export default [
     med: 1,
     mod: 11,
   },
+
+  // Fredag den 19. november
+  {
+    klander: ["FUNÉ"],
+    klandret: ["Panini"],
+    beskrivelse: "Kidnapning",
+    med: 13,
+    mod: 7,
+  },
+  {
+    klander: ["FUNÉ"],
+    klandret: ["Panini"],
+    beskrivelse: "Fremmøde",
+    med: 12,
+    mod: 12,
+  },
+  {
+    klander: ["FUNÉ"],
+    klandret: ["Panini"],
+    beskivelse: "Løftebryder",
+    med: 10,
+    mod: 12,
+  },
+  {
+    klander: ["Hjalte"],
+    klandret: ["Jacob W."],
+    beskivelse: "Windows installation",
+    med: 8,
+    mod: 10,
+  },
+  {
+    klander: ["Jacob R."],
+    klandret: ["Panini"],
+    beskivelse: "Briller",
+    med: 11,
+    mod: 8,
+  },
+  {
+    klander: ["Jacob R."],
+    klandret: ["Jacob W.'s PC"],
+    beskivelse: "Mursten",
+    med: 6,
+    mod: 11,
+  },
 ];
