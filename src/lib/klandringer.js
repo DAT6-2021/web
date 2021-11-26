@@ -587,4 +587,40 @@ export default [
     med: 6,
     mod: 11,
   },
+
+  // Fredag d. 26 november
+  {
+    klander: ["Jacob R."],
+    klandret: ["Jacob R."],
+    beskrivelse: "Forsent",
+    med: 9,
+    mod: 9,
+  },
+  {
+    klander: ["FUØX"],
+    klandret: ["J.W"],
+    beskrivelse: "kresultat??",
+    med: 9,
+    mod: 5,
+  },
+  {
+    anti: true,
+    klander: ["Jacob R."],
+    klandret: ["Panini"],
+    beskrivelse: "ingen cykel",
+    konklusion: ["Jacob R.", "FUØX", "Asbjørn"],
+  }, {
+    anti: true,
+    klander: ["Hjalte"],
+    klandret: ["Niels Jakob"],
+    beskrivelse: "kage",
+    konklusion: ["Hjalte", "Jacob R.", "Alexander", "Asbjørn", "Mohammed", "Mikkel Mus"],
+  },
+  {
+    klander: ["Alexander"],
+    klandret: ["Jacob W."],
+    beskrivelse: "...",
+    med: 8,
+    mod: 8,
+  }
 ];
