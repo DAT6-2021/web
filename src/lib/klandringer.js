@@ -609,12 +609,20 @@ export default [
     klandret: ["Panini"],
     beskrivelse: "ingen cykel",
     konklusion: ["Jacob R.", "FUØX", "Asbjørn"],
-  }, {
+  },
+  {
     anti: true,
     klander: ["Hjalte"],
     klandret: ["Niels Jakob"],
     beskrivelse: "kage",
-    konklusion: ["Hjalte", "Jacob R.", "Alexander", "Asbjørn", "Mohammed", "Mikkel Mus"],
+    konklusion: [
+      "Hjalte",
+      "Jacob R.",
+      "Alexander",
+      "Asbjørn",
+      "Mohammed",
+      "Mikkel Mus",
+    ],
   },
   {
     klander: ["Alexander"],
@@ -622,5 +630,54 @@ export default [
     beskrivelse: "...",
     med: 8,
     mod: 8,
+  },
+
+  // Fredag den 3. december
+  {
+    klander: ["Jacob R."],
+    klandret: ["Panini"],
+    beskrivelse: "Møde op",
+    med: 8,
+    mod: 6,
+  },
+  {
+    anti: true,
+    klander: ["Jacob R."],
+    klandret: ["Panini"],
+    beskrivelse: "Møde op",
+    konklusion: ["Jacob R.", "Hjalte", "FUNÉ", "Mohammed", "Mikel Mus"],
+  },
+  {
+    klander: ["FUNÉ"],
+    klandret: ["Panini"],
+    beskrivelse: "Fordi",
+    med: 8,
+    mod: 8,
+  },
+  {
+    klander: ["Niels Jakob"],
+    klandret: ["Hjalte"],
+    beskrivelse: "Kahoot",
+    med: 6,
+    mod: 6,
+  },
+  {
+    klander: ["Hjalte"],
+    klandret: ["FUØX"],
+    beskrivelse: "Trøje",
+    med: 10,
+    mod: 9,
+  },
+  {
+    anti: true,
+    klander: ["Niels Jakob"],
+    klandret: ["Panini"],
+    konklusion: ["Niels Jakob", "Jacob R."]
+  },
+  {
+    klander: ["Niels Jakob"],
+    klandret: ["Hjalte"],
+    med: 10,
+    mod: 10,
   }
 ];

@@ -30,6 +30,7 @@
         vundet: 0,
         tabt: 0,
         anti: 0,
+        indbetalt: 0,
     };
 
     const personer = klandringer.reduce(

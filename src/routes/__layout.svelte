@@ -8,6 +8,7 @@
         <a href="/" class:active={/^\/$/.test($page.path)}>Hjem</a>
         <a href="/klandringer" class:active={/^\/klandringer/.test($page.path)}>Klandringer</a>
         <a href="/links" class:active={/^\/links/.test($page.path)}>Links</a>
+        <a href="/indbetalinger" class:active={/^\/indbetalinger/.test($page.path)}>Indbetalinger</a>
     </nav>
 </header>
 <main class="flex flex-col flex-1 max-w-screen"><slot /></main>
